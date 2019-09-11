@@ -42,15 +42,13 @@ export default Counter
 ## 快速开始
 
 ```js
-npm i omi-cli -g
-omi init-mp-react my-app
+npx kbone-cli init my-app
 cd my-app
 npm run mp       //开发小程序
 npm run web      //开发 web
 npm run build    //发布 web
 ```
 
-> 也支持一条命令 `npx omi-cli init-mp-react my-app` (npm v5.2.0+)
 
 ## 目录说明
 
