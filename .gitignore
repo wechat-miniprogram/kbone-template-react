@@ -64,5 +64,5 @@ typings/
 .idea
 .DS_Store
 dist
-build
+build/web
 package-lock.json
