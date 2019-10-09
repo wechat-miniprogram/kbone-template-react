@@ -1,0 +1,11 @@
+{
+	"pages": [
+		"pages/index/index",
+		"pages/log/index"
+	],
+	"window": {
+		"navigationBarTitleText": "miniprogram-project"
+	},
+	"subpackages": [],
+	"preloadRule": {}
+}
