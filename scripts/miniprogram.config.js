@@ -20,8 +20,9 @@ module.exports = {
 		accessDenied: 'index',
 	},
 	generate: {
-        autoBuildNpm: 'npm',
-    },
+        	autoBuildNpm: 'npm',
+		projectConfig: path.join(__dirname, '../build/mp'),
+    	},
 	app: {
 		navigationBarTitleText: 'miniprogram-project',
 	},
