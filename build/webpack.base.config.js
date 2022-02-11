@@ -18,6 +18,9 @@ module.exports = {
         test: /\.[t|j]sx?$/,
         loader: 'babel-loader',
         exclude: /node_modules/,
+        options: {
+          plugins: [['transform-react-jsx', { pragma: 'h' }]],
+        },
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
@@ -29,6 +32,6 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['*', '.js', '.jsx', '.json']
+    extensions: ['*', '.js', '.jsx', '.json'],
   },
 }
