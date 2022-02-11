@@ -6,7 +6,6 @@
 
 * 一键接入，立即使用
 * 支持完整 JSX 语法，任意位置任意方式书写 JSX
-* webpack、hook、es2018+、babel7+、jsx、hot reload、cli，你想要的都有
 
 ## 一套语法多端运行
 
