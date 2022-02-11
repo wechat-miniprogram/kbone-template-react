@@ -1,6 +1,6 @@
 # react-kbone
 
-使用 react 多端开发(小程序和Web)，基于 [kbone](https://github.com/wechat-miniprogram/kbone) 的 element 和 render。
+使用 react 多端开发(小程序和Web)，基于 [kbone](https://github.com/Tencent/kbone) 的 element 和 render。
 
 ## 特性
 
@@ -61,8 +61,8 @@ npm run build     // 构建 web
 ├─ src
 │  ├─ assets
 │  ├─ components     // 存放所有组件
-│  ├─ log.jsx        // 入口文件，会 build 成  log.html
-│  └─ index.jsx      // 入口文件，会 build 成  index.html
+│  ├─ log.jsx        // 入口文件，会 build 成 log.html
+│  └─ index.jsx      // 入口文件，会 build 成 index.html
 ```
 
 ## 注意事项
