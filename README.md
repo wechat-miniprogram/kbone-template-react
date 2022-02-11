@@ -10,9 +10,6 @@
 ## 一套语法多端运行
 
 ```jsx
-import React, { useState } from 'react'
-import './index.css'
-
 function Counter() {
   const [count, setCount] = useState(0)
   return (
@@ -26,9 +23,9 @@ function Counter() {
 }
 
 function clickHandle() {
-  if ("undefined" != typeof wx && wx.getSystemInfoSync) {
+  if ('undefined' != typeof wx && wx.getSystemInfoSync) {
     wx.navigateTo({
-      url: '../log/index?id=1'
+      url: '../log/index?id=1',
     })
   } else {
     location.href = 'log.html'
