@@ -21,7 +21,6 @@ let htmlWebpackPlugins = [];
 
 fileList.forEach(function (item) {
   entry[item] = [
-    require.resolve('./polyfills'),
     paths.appSrc + '/' + item + '.js',
   ];
 

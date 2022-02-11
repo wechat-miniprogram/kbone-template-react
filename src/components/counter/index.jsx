@@ -14,9 +14,9 @@ function Counter() {
 }
 
 function clickHandle() {
-  if ("undefined" != typeof wx && wx.getSystemInfoSync) {
+  if ('undefined' != typeof wx && wx.getSystemInfoSync) {
     wx.navigateTo({
-      url: '../log/index?id=1'
+      url: '../log/index?id=1',
     })
   } else {
     location.href = 'log.html'

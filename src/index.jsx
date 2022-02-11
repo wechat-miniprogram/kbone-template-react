@@ -10,4 +10,4 @@ export default function createApp() {
   ReactDOM.render(<Counter />, container)
 }
 
-"undefined" != typeof wx && wx.getSystemInfoSync || createApp()
+;('undefined' != typeof wx && wx.getSystemInfoSync) || createApp()

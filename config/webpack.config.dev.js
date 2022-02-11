@@ -20,7 +20,6 @@ let htmlWebpackPlugins = [];
 
 fileList.forEach(function (item) {
   entry[item] = [
-    require.resolve('./polyfills'),
     require.resolve('react-dev-utils/webpackHotDevClient'),
     paths.appSrc + '/' + item + '.js',
   ];

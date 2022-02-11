@@ -64,5 +64,3 @@ typings/
 .idea
 .DS_Store
 dist
-package-lock.json
-build
