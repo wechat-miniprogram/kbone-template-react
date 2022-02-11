@@ -41,29 +41,28 @@ export default Counter
 
 ## 快速开始
 
-```js
+```
 npx kbone-cli init my-app
 cd my-app
-npm run mp       //开发小程序
-npm run web      //开发 web
-npm run build    //发布 web
+npm run mp        // 开发小程序
+npm run build:mp  // 构建小程序
+npm run web       // 开发 web
+npm run build     // 构建 web
 ```
 
 
 ## 目录说明
 
 ```
-├─ build
-│  ├─ mp     //微信开发者工具指向的目录，用于生产环境
-│  ├─ web    //web 编译出的文件，用于生产环境
-├─ config
-├─ public
-├─ scripts
+├─ dist
+│  ├─ mp     // 微信开发者工具指向的目录，用于生产环境
+│  ├─ web    // web 编译出的文件，用于生产环境
+├─ build     // 构建相关
 ├─ src
 │  ├─ assets
-│  ├─ components    //存放所有组件
-│  ├─ log.js        //入口文件，会 build 成  log.html
-│  └─ index.js      //入口文件，会 build 成  index.html
+│  ├─ components     // 存放所有组件
+│  ├─ log.jsx        // 入口文件，会 build 成  log.html
+│  └─ index.jsx      // 入口文件，会 build 成  index.html
 ```
 
 ## 注意事项
